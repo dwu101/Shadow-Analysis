@@ -4,7 +4,7 @@ def screenshots():
 
     for i in range(80):
         screenshot = pyautogui.screenshot()
-        screenshot.save(r"C:\Users\danqw\OneDrive\Desktop\cs_stuff\shadow\screenshots\screenshot{x}".format(x = i))
+        screenshot.save(r"C:\Users\*blank*\OneDrive\Desktop\cs_stuff\shadow\screenshots\screenshot{x}".format(x = i))
     
 
 def area_plot():
@@ -12,7 +12,7 @@ def area_plot():
     import cv2
 
     
-    os.chdir(r"C:/Users/danqw/OneDrive/Desktop/cs_stuff/shadow/screenshots")
+    os.chdir(r"C:/Users/*blank*/OneDrive/Desktop/cs_stuff/shadow/screenshots")
     for i in range(1):
 
         img = cv2.imread("screenshot_{x}.jpg".format(x=1))
