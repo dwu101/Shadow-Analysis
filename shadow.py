@@ -21,7 +21,7 @@ centery = 0
 
 angle = 0
 
-points = np.array([    #original points
+points = np.array([    #these are the points of the cube that will be generated
 
     [-0.5, -0.5, -0.5],
     [0.5, -0.5, -0.5],
